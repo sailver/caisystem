@@ -1,0 +1,40 @@
+#include "cdwidget.h"
+#include "ui_cdwidget.h"
+#include "sources/file_system/CaiDirectory.h"
+#include "sources/file_system/huffman.h"
+#include <fstream>
+
+CdWidget::CdWidget(QWidget *parent) :
+    QGroupBox(parent),
+    ui(new Ui::CdWidget)
+{
+    ui->setupUi(this);
+    this->load();
+    this->showInfo();
+    connect(ui->returnToMain, SIGNAL(clicked()), this, SLOT(returnToMain()));
+    connect(ui->courseE, SIGNAL(clicked()), this, SLOT(cencode()));
+    connect(ui->courseD, SIGNAL(clicked()), this, SLOT(cdecode()));
+    connect(ui->removeFile, SIGNAL(clicked()), this, SLOT(removeFile()));
+    connect(ui->resetJob, SIGNAL(clicked()), this, SLOT(resetJob()));
+    connect(ui->searchJob, SIGNAL(clicked()), this, SLOT(searchJob()));
+    connect(ui->sortByE, SIGNAL(clicked()), this, SLOT(sortByEndTime()));
+    connect(ui->sortByS, SIGNAL(clicked()), this, SLOT(sortBySubmitTime()));
+}
+
+void CdWidget::removeFile() {
+    if(ui->courseList->currentItem()!=Q_NULLPTR) {
+        int nowId = ui->courseList->currentRow();
+        auto pt = this->caiDirectory->fileList->headNode->next->next->next;
+        while(nowId-- > 0) {
+            pt = pt->next;
+        }
+        string path = this->caiDirectory->dirPath + pt->data.name;
+        remove(path.c_str());
+    }
+    ui->courseList->clear();
+    ui->jobList->clear();
+    showInfo();
+}
+
+void CdWidget::cencode() {
+    if(ui->courseList->currentItete

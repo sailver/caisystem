@@ -1,0 +1,20 @@
+#include "cblistwidget.h"
+#include "ui_cblistwidget.h"
+#include "cblistitem.h"
+#include <QListWidget>
+
+CbListWidget::CbListWidget(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::CbListWidget)
+{
+    ui->setupUi(this);
+    this->loadCourses();
+    this->showCourses();
+    connect(ui->pushButton, SIGNAL(clicked()), this, SLOT(toCbListWidget()));
+    connect(&mainWindow, SIGNAL(sSignal()), this, SLOT(toMain()));
+    connect(&itemInput, SIGNAL(CbInputSig()), this, SLOT(InputToMain()));
+    connect(&itemInput, SIGNAL(CbUpdateSig()), this, SLOT(UpdateToMain()));
+    connect(ui->addCourse, SIGNAL(clicked()), this, SLOT(addC()));
+    connect(ui->deleteCourse, SIGNAL(clicked()), this, SLOT(deleteC()));
+    connect(ui->updateCourse, SIGNAL(clicked()), this, SLOT(updateC()));
+    connect(ui->enterCourse, SIGNAL(clicked()), this, SLOT(is

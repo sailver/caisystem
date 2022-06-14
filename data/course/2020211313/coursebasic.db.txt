@@ -1,0 +1,12 @@
+1 形势与政策 xingshiyuzhengce 马院老师 mayuanlaoshi 5 10 必修 2 S207 65535 10
+2 面向对象程序设计实践 mianxiangduixiangchengxushejishijian 李劼讲师 lijiejiangshi 5 6 必修 3 N308 65535 9
+3 体育基础 tiyujichu 王浩毅副教授 wanghaoyifujiaoshou 4 8 必修 2 体育场 65535 8
+4 毛泽东思想 maozedongsixiang 宋林泽讲师 songlinzejiangshi 4 6 必修 2 S308 65535 6
+5 数据结构课程设计 shujujiegoukechengsheji 王尊亮讲师 wangzunlianglaoshi 4 3 必修 2 N309 65535 7
+6 计算机网络 jisuanjiwangluo 程莉讲师 chenglijiangshi 4 1 必修 2 N513 65535 1
+7 毛泽东思想 maozedongsixiang 宋林泽讲师 songlinzejiangshi 2 6 必修 2 S308 65535 6
+8 计算机网络课程设计 jisuanjiwangluokechengsheji 程莉讲师 chenglijiangshi 2 3 必修 3 S202 65535 5
+9 形式语言与自动机 xingshiyuyanyuzidongji 杨正球教授 yangzhengqiulaoshi 2 1 必修 2 S510 65535 4
+10 计算机组成原理课程设计 jisuanjizuchengyuanlikechengsheji 戴志涛教授 daizhitaolaoshi 1 12 选修 2 N206 65535 3
+11 计算机组成原理 jisuanjizuchengyuanli 周锋教授 zhoufengjiaoshou 1 3 必修 3 S510 65535 2
+12 计算机网络 jisaunjiwangluo 程莉讲师 chenglijianghsi 1 1 必修 2 S516 65535 1

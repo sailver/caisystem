@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1194</width>
+    <height>894</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1191</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string> 1 
+08:00 - 08:45</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 2 
+08:50 - 09:35</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 3 
+09:50 - 10:35</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 4 
+10:40 - 11:25</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 5 
+11:30 - 12:15</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 6 
+13:00 - 13:45</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 7 
+13:50 - 14:35</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 8 
+14:45 - 15:30</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string> 9 
+15:40 - 16:25</string>
+     </property>
+     <property name="font">
+      <font>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10 
+16:35 - 17:20</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>11 
+17:25 - 18:10</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>12 
+18:30 - 19:15</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>13 
+19:20 - 20:05</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>14 
+20:10 - 20:55</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>周一</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>周二</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>周三</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>周四</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>周五</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>周六</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>周日</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>830</y>
+      <width>141</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>课程列表</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1194</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
